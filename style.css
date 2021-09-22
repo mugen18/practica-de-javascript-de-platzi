@@ -60,6 +60,10 @@ section {
   width: 100%;
   height: 100px;
 }
+.botones {
+  display: flex;
+}
+
 .botones_formulario {
   display: flex;
   flex-wrap: wrap;
@@ -70,5 +74,38 @@ section {
   font-size: 22px;
 }
 #InputCuadrado {
+  font-size: 22px;
+}
+
+/* Estilos del triangulo */
+
+.subtitulo_triangulo {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.botones_triangulo {
+  margin-top: 50px;
+  display: flex;
+}
+.subtitulo_triangulo_decoration {
+  border-radius: 8px 8px;
+  background-color: rgba(130, 13, 177, 0.6);
+  text-align: center;
+  width: 400px;
+  height: 70px;
+}
+.botones_formulario_triangulo {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 30px;
+}
+#InputTriangulo {
+  font-size: 22px;
+}
+
+.triangulo,
+.area_triangulo {
   font-size: 22px;
 }
